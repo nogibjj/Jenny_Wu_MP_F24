@@ -11,7 +11,7 @@ jobs:
     build:
         runs-on: ubuntu-latest
         steps: 
-            - uses: actiona/checkout@v3
+            - uses: action/checkout@v3
             - name: install packages 
               run: make install 
             - name: format
